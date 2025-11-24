@@ -2,12 +2,9 @@
 This is an interactive art which designed to explore the possibility of including multiple topics on a single page rendering.
 
 A. Key Interaction
-1. Procedural Generation-Clicking: When user clicks anywhere on the screen, the content changes.
-   
+1. Procedural Generation: When user clicks anywhere on the screen, the content changes.  
 2. Mouse Physics-Parallax: As user move the mouse, the large text blocks move slightly in opposite directions (data-speed), creating a matrix-3D depth effect.
-
 3. Mouse Physics-Magnetism: The background dots react to the cursor. Dots near the mouse swell in size, creating a wave-like ripple effect as you move across the grid.
-
 4. Focus and Depth of Field: When hovering over a specific large word, that word scales up and remains sharp, while the other text blocks blur and fade out. This mimics a camera shifting focus.
 
 B. Key Technology
