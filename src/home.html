@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generative Poster Archive</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <!-- SVG Filters (Hidden Utility) -->
     <svg style="display: none;">
         <defs>
             <filter id="ink-bleed">
@@ -17,21 +17,26 @@
         </defs>
     </svg>
 
+    <!-- Main Interface -->
     <div class="poster-wrapper" id="poster">
+        <!-- Metadata Labels -->
         <div class="small-text meta-top-left" id="label-id"></div>
         <div class="small-text meta-1" id="intro-text"></div>
         <div class="small-text meta-2" id="date-text"></div>
 
+        <!-- Typography Blocks -->
         <div class="big-text block-top" id="big-1" data-speed="2"></div>
         <div class="big-text block-bottom" id="big-2" data-speed="-1.5"></div>
         <div class="big-text block-side" id="big-3" data-speed="1"></div>
 
+        <!-- Descriptions -->
         <div class="small-text meta-3" id="desc-text"></div>
         <div class="small-text meta-4" id="credit-text"></div>
     </div>
 
     <div class="instruction">[ CLICK TO GENERATE NEW LAYOUT ]</div>
 
-    <script src="script.js"></script>
+    <!-- Entry Point -->
+    <script type="module" src="./src/main.js"></script>
 </body>
 </html>
